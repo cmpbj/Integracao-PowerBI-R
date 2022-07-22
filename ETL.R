@@ -18,11 +18,11 @@ tabela3 <- "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arqu
 tabela4 <- "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/shpc/dsan/2022/precos-gasolina-etanol-04.csv"
 tabela5 <- "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/shpc/dsan/2022/precos-gasolina-etanol-05.csv"
 
-path1 <- "C://Users//carlo//MicrosofPowerBI-DSA//cap12//precos-gasolina-etanol-01.csv"
-path2 <- "C://Users//carlo//MicrosofPowerBI-DSA//cap12//precos-gasolina-etanol-02.csv"
-path3 <- "C://Users//carlo//MicrosofPowerBI-DSA//cap12//precos-gasolina-etanol-03.csv"
-path4 <- "C://Users//carlo//MicrosofPowerBI-DSA//cap12//precos-gasolina-etanol-04.csv"
-path5 <- "C://Users//carlo//MicrosofPowerBI-DSA//cap12//precos-gasolina-etanol-05.csv"
+path1 <- "C://Users//MicrosofPowerBI-DSA//cap12//precos-gasolina-etanol-01.csv"
+path2 <- "C://Users//MicrosofPowerBI-DSA//cap12//precos-gasolina-etanol-02.csv"
+path3 <- "C://Users//MicrosofPowerBI-DSA//cap12//precos-gasolina-etanol-03.csv"
+path4 <- "C://Users//MicrosofPowerBI-DSA//cap12//precos-gasolina-etanol-04.csv"
+path5 <- "C://Users//MicrosofPowerBI-DSA//cap12//precos-gasolina-etanol-05.csv"
 
 download.file(tabela1, path1)
 download.file(tabela2, path2)
