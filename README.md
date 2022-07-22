@@ -4,7 +4,7 @@ Este repositório tem como objetivo servir para o aprofundamento do conteúdo en
 
 O Capítulo 12 trata da integração da Linguagem R com o Power BI, ensinando como utilizar R para manipular os dados no Power Query e para gerar gráficos, o que é uma grande vantagem, já que permite a criação de gráficos não disponíveis na ferramenta.
 
-Os dados utilizados estão disponíveis no portal [dados.gov.br](https://dados.gov.br/dataset/serie-historica-de-precos-de-combustiveis-por-revenda). Tratase da série histórica de preços de combustíveis disponibilizada pela Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP). 
+Os dados utilizados estão disponíveis no portal [dados.gov.br](https://dados.gov.br/dataset/serie-historica-de-precos-de-combustiveis-por-revenda). Trata-se da série histórica de preços de combustíveis disponibilizada pela Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP). 
 
 Apesar de ser uma ferramenta bastante interessante oferecida pela Microsoft, a integração entre o Power BI e a Linguagem R para geração dos gráficos possui algumas limitações. Dentre elas, o tamanhos dos dados usados por um visual do R para plotar, que estão limitados a 150 mil linhas. Caso mais de 150.000 linhas forem selecionadas, somente as primeiras 150.000 linhas serão usadas. Para um passo a passo de como realizar a integração, é possível acessar este [link](https://docs.microsoft.com/pt-br/power-bi/create-reports/desktop-r-visuals). Além disso, no site consta uma lista com as limitações conhecidas, reproduzidas abaixo:
 
